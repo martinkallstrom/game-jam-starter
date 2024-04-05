@@ -1,4 +1,6 @@
-# 2D Top-Down Multiplayer Game
+# Game Jam Starter
+
+![Welcome](assets/welcome/screen.png)
 
 ## Introduction
 
