@@ -71,8 +71,8 @@ To work on the project, you need to clone the repository to your local machine.
 
 - **Clone the Repository**:
   - Navigate to the directory where you want to place the project.
-  - Run `git clone https://github.com/your-username/your-project-name.git`.
-  - Change into the project directory with `cd your-project-name`.
+  - Run `git clone https://github.com/martinkallstrom/game-jam-starter.git`.
+  - Change into the project directory with `cd game-jam-starter`.
 
 ## How to install node on Mac, Windows or Linux
 
@@ -136,13 +136,13 @@ Installing Node.js on your system is the first step to getting this game up and 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/martinkallstrom/game-jam-starter.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-repo
+   cd game-jam-starter
    ```
 
 3. Install dependencies:
