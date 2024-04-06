@@ -16,6 +16,15 @@ export class WelcomeScene extends Phaser.Scene {
     // Create the welcome screen
     this.add.image(this.cameras.main.centerX, this.cameras.main.centerY, 'background').setDisplaySize(400, 400);
     const startButton = this.add.image(this.cameras.main.centerX, this.cameras.main.centerY + 240, 'startButton').setInteractive().setDisplaySize(160, 40);
+    // Add blue tinted centered shadow for glow effect on hover
+    startButton.on('pointerover', () => {
+      startButton.setTint(0x6666ff); // Apply a blue tint to simulate a glow effect
+    });
+
+    startButton.on('pointerout', () => {
+      startButton.clearTint(); // Remove the tint when the pointer is no longer over the button
+    });
+
     startButton.on('pointerdown', () => {
       this.scene.start('StrategyMapScene');
     });
